@@ -1,6 +1,6 @@
 // Premitive
 
-// 7 types : String, Number, Bolean, null, undefined, Symbol, BigInt
+// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -31,3 +31,31 @@ const myFunction= function(){
 
 }
 console.log(typeof myObj);
+
+
+
+
+//==============================================================================================================================
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let myYoutubeName = "KnockHeaD"
+
+let anotherName = myYoutubeName
+anotherName ="PritamGharami"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let user ={
+    email: "userGoogle.com",
+    upi: "user@yybl",
+}
+
+
+let userTwo = user
+
+userTwo.email ="pritam@google.com"
+console.log(user.email);
+console.log(userTwo.email);
+
